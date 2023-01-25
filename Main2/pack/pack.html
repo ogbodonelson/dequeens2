@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pack</title>
+    <link rel="stylesheet" href="/Main2/pack/pack.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- external fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- general container -->
+    <div class="container">
+
+      <!-- header -->
+      <header class="row">
+        <div class="col border border-secondary ">
+            <h1 class="title">Packaging Bags</h1>
+        </div>
+      </header>
+
+      <!-- body -->
+      <div class="body">
+          <!-- row for initial goods -->
+          <div class="row mt-5 initialGoods">
+              <!-- initial goods -->
+
+              <!-- initial bags -->
+              <h2 class="initial">Initial Goods</h2>
+              <div class="col-md-5 mx-3">
+                  <form class="gx-3 gy-2 align-items-center">
+                    <div class="input-group">
+                        <div class="input-group-text">Initial Bags</div>
+                        <input type="number" class=" initialBags form-control form-control-sm" id="specificSizeInputGroupUsername" placeholder="Username">
+                    </div>
+                  </form>
+              </div>
+
+
+              <!-- initial bundles -->
+              <div class="col-md-5 my-3 mx-3 initial">
+                    <form class="gx-3 gy-2 align-items-center">
+                    <div class="input-group">
+                        <div class="input-group-text">Initial Bundles</div>
+                        <input type="number" class="initialBundles form-control form-control form-control-sm" id="specificSizeInputGroupUsername" placeholder="Username">
+                    </div>
+                    </form>
+              </div>
+
+              <!-- initial pcs -->
+            <div class="col-md-4 my-3 mx-3">
+                <form class="gx-3 gy-2 align-items-center">
+                  <div class="input-group">
+                      <div class="input-group-text">Initial Pcs</div>
+                      <input type="number" class="initialPcs form-control form-control form-control-sm" id="specificSizeInputGroupUsername" placeholder="Username">
+                  </div>
+                </form>
+            </div>
+            <!-- enter button -->
+            <button class="initialValues btn btn-info w-2" id="initialValues">Enter</button>
+            <!-- display initial value of goods-->
+            <h3 class="displayInitialValue">
+
+            </h3>
+          </div>
+
+          <!-- row for sold goods -->
+
+          <!-- sold bags -->
+          <div class="row mt-5 soldGoods">
+            <h2 class="sold">Sold Goods</h2>
+            <div class="col-md-5 mx-3">
+                <form class="gx-3 gy-2 align-items-center">
+                  <div class="input-group">
+                      <div class="input-group-text">Sold Bags</div>
+                      <input type="number" id="soldBag" class="soldBag form-control form-control form-control-sm" id="specificSizeInputGroupUsername" placeholder="Username">
+                      <button type="button" class="enter soldBag btn btn-info">Enter</button>
+                  </div>
+                </form>
+            </div>
+
+            <!-- sold bundles -->
+            <div class="col-md-5 my-3 mx-3">
+                <form class="gx-3 gy-2 align-items-center">
+                  <div class="input-group">
+                      <div class="input-group-text">Sold Bundles</div>
+                      <input type="number" id="soldBundle" class="soldbundle form-control form-control form-control-sm" id="specificSizeInputGroupUsername" placeholder="Username">
+                      <button type="button" class="enter soldBundle btn btn-info">Enter</button>
+                  </div>
+                </form>
+            </div>
+
+            <!-- sold pcs -->
+            <div class="col-md-4 my-3 mx-3">
+                <form class="gx-3 gy-2 align-items-center">
+                  <div class="input-group">
+                      <div class="input-group-text">Sold Pcs</div>
+                      <input type="number" id="soldPcs" class="soldPcs form-control form-control form-control-sm" id="specificSizeInputGroupUsername" placeholder="Username">
+                      <button type="button" class="enter soldPcs btn btn-info">Enter</button>
+                  </div>
+                </form>
+            </div>
+          </div>
+
+          <div class="table row" style="text-align: center;">
+            <!-- table -->
+            <table class="border border-danger">
+                <tr>
+                  <th>Bundles</th>
+                  <th>Amount</th>
+                </tr>
+            </table>
+            <a class="done btn btn-primary" href="#" role="button">Done</a>
+            <!-- <button type="button" class="done btn btn-primary">Done</button> -->
+          </div>
+
+          <!-- remaining goods -->
+          <h3 class="remaining row"></h3>
+
+          <h3 class="total"></h3>
+
+          <!-- balance -->
+          <div class="balance row">
+            <h3 class="balance col"></h3>
+            <button type="button" class="balance btn btn-info col">Enter</button>
+          </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/Main2/pack/pack.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

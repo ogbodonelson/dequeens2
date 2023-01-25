@@ -1,0 +1,295 @@
+
+body{
+    background-image: url(/Main2/img/images\ \(23\).jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+}
+
+.companyName{
+    font-family: 'Lora', serif, cursive; 
+    font-weight:bolder; 
+}
+
+div.all {
+    overflow: scroll;
+    z-index: 1; }
+
+.check{
+    align-content: center;
+    text-align: center;
+    height: 10vh;
+    background-color: transparent;
+}
+
+ul.quotes li{
+    list-style-type: none;
+}
+
+ul.quotes{
+    display: none;
+}
+
+.companyActivities{
+    font-family: 'Lobster Two', cursive;
+}
+
+.contact, .service, .location, .staffs, .activities{
+    font-family: 'Lora', serif;
+}
+
+.writeUp{
+    font-family: 'El Messiri', sans-serif;
+}
+
+.description{
+    font-family: 'Libre Baskerville', serif;
+}
+
+hr{
+    width: 70%;
+}
+
+div.description ul li{
+    lighting-color: aquamarine;
+    list-style-type: square;
+}
+
+@media only screen and (min-width: 1000px) {
+    div.pureWaterImage img{
+        width: 90%;
+        height: 80%;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    div.pureWaterImage img{
+        width: 90%;
+        height: 80%;
+    }
+
+    .writeUp{
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    ul.description li h5{
+        font-size: 16px;
+    }
+
+    div.pureWaterImage img{
+        width: 100%;
+        height: 80%;
+    }
+
+    .writeUp{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    div.pureWaterImage img{
+        width: 80%;
+        height: 60%;
+    }
+
+    ul.description li h5{
+        font-size: 14px;
+    }
+
+    .ceo{
+        width: 45vw;
+        height: 40vh;
+    }
+}
+
+@media only screen and (max-width: 639px) {
+    div.pureWaterImage img{
+        width: 80%;
+        height: 60%;
+    }
+
+    ul.description li h5{
+        font-size: 14px;
+    }
+
+    .ceo{
+        width: 45vw;
+        height: 40vh;
+    }
+
+    .writeUp{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    ul.description li h5{
+        font-size: 14px;
+    }
+
+    .ceo{
+        width: 60vw;
+        height: 35vh;
+    }
+
+    .writeUp{
+        font-size: 18px;
+    }
+
+    .show{
+        text-align: center;
+        font-weight: 800;
+        font-size: 20px;
+    }
+}
+
+div.companyProfile{
+    margin-top: 2%;
+    align-items: center;
+    justify-items: center;
+}
+
+.henry, .queen{
+    margin: 20px;
+}
+
+.quotes, .ceos{
+    text-align: center;
+}
+
+.ut{
+    background-image: url(/Main2/img/ut.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.show{
+    text-align: center;
+    font-weight: 800;
+    font-size: xx-large;
+      /* padding: 5px; */
+}
+
+@media only screen and (max-width: 660px) {
+    div.pureWaterImage img{
+        width: 50%;
+        height: 80%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    div.pureWaterImage img{
+        width: 80%;
+        height: 40%;
+    }
+
+    .ceo{
+        height: 15vh;
+}
+
+div.show{
+    padding-top: 20px;
+    height: 100px;
+    text-align: center;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    div.pureWaterImage img{
+        width: 80%;
+        height: 60%;
+    }
+
+    .ceo{
+        width: 68vw;
+        height: 47vh;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+    div.pureWaterImage img{
+        width: 70%;
+        height: 75%;
+    }
+
+    .ceo{
+        width: 70vw;
+        height: 40vh;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    div.pureWaterImage img{
+        width: 70%;
+        height: 75%;
+    }
+
+    .ceo{
+        width: 70vw;
+        height: 40vh;
+    }
+}
+
+.quotes{
+    font-family: 'Bakbak One', cursive;
+}
+
+.goal{
+    text-align: center;
+    line-height: 10px;
+}
+
+.goal h5{
+    line-height: 30px;
+}
+
+.copyright{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;}
+
+.companyProfile .card{
+    background-color: lightblue;
+    align-items: center;
+}
+
+.companyProfile{
+    display: flex;
+    justify-content: center;
+    /* width: 103%; */
+}
+
+@media only screen and (min-width: 900px) {
+    .companyProfile{
+        display: flex;
+        justify-content: space-between;
+}
+
+.prevent{
+        display: flex;
+        justify-content: space-between;
+}
+
+.writeUp{
+        font-size: 20px;
+    }
+}
+
+.prevent .card{
+    padding: 0;
+}
+.prevent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+h4.prevention{
+    text-align: center;
+    text-decoration: underline;
+}
